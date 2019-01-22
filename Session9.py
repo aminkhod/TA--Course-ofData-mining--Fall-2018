@@ -1,7 +1,7 @@
 import numpy as np
 
 #######Feature selection#########
-
+ 
 #Removing features with low variance
 from sklearn.feature_selection import VarianceThreshold
 X = [[0, 0, 1], [0, 1, 0], [1, 0, 0], [0, 1, 1], [0, 1, 0], [0, 1, 1]]
